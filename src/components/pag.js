@@ -16,12 +16,12 @@ const Pagi = ({prev, next, onAnt, onSig}) => {
                 {
                     prev ?(
                     <li className="page-item">
-                    <button className="page-link" onClick={onAnt} >Anterior</button>
+                    <button className="" onClick={onAnt} >Anterior</button>
                     </li>  
                     ): null   }               
                 {next ?(
                     <li className="page-item">
-                    <button className="page-link" onClick={onSig} >Siguiente</button>
+                    <button className="" onClick={onSig} >Siguiente</button>
                     </li>
                     ): null}
             </ul>
@@ -30,3 +30,8 @@ const Pagi = ({prev, next, onAnt, onSig}) => {
 }
 
 export default Pagi
+
+
+
+//import Characters from './components/MiApi';
+//import Pagi from "./components/pag";
